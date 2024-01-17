@@ -1,0 +1,31 @@
+{
+	"name": "Meeting",
+	"version": "4.0.0",
+	"description": "Meeting web.",
+	"main": "start.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node start.js",
+		"postinstall": "node postinstall.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vuktmt15/chat-online"
+	},
+	"keywords": [
+		"webrtc",
+		"socket.io",
+		"video"
+	],
+	"author": "",
+	"license": "",
+	"bugs": {
+		"url": ""
+	},
+	"homepage": "",
+	"dependencies": {
+		"express": "^4.18.2",
+		"socket.io": "^4.5.3",
+		"vue": "^3.2.41"
+	}
+}
